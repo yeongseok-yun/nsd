@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class ResponseDTO<T> {
 	private String error;
+	// 20220807
 	private List<T> data;
 	
 }
