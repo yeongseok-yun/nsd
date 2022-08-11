@@ -19,7 +19,7 @@ public class TestController {
 		return "id : "+id;
 	}
 	
-	@GetMapping("paramTest")//localhost:8080/test/paramTest?val_ue=hello
+	@GetMapping("paramTest")//localhost:8080/test/paramTest?val_ue=hello//
 	public String paramTestMethod(@RequestParam String val_ue) {
 		return "param :" + val_ue;
 	}
